@@ -1,0 +1,16 @@
+### Health
+GET http://localhost:3000/health
+
+### List tasks
+GET http://localhost:3000/tasks
+
+### Create task
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "Test task"
+}
+
+### Get task
+GET http://127.0.0.1:3000/tasks/1
